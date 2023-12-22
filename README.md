@@ -11,7 +11,7 @@ The goal here is to have a few different options and examples of fine tuning LLM
 The docker image can be built using `./Dockerfile`. You can build it using the following command, run from the root directory
 
 ```bash
-docker build . -f Dockerfile --rm -t llm-finetuning:latest
+docker build --build-arg WB_API_KEY=<your_api_key> . -f Dockerfile --rm -t llm-finetuning:latest
 ```
 
 ### Run docker container

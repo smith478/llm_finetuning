@@ -59,4 +59,12 @@ localhost:8501
 ## TODO
 - Fine tuning instruct llm
 - Conversation summarization/notes
+- Medical audio to text to question answering
+- Medical audio to text summarization
 - RAG example
+
+## Examples
+
+### Mistral 7B fine tuning
+[Mistral 7B Fine-Tuning - Gathnex](https://gathnex.medium.com/mistral-7b-fine-tuning-a-step-by-step-guide-52122cdbeca8)
+
